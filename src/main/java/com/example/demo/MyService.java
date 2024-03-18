@@ -27,6 +27,6 @@ public class MyService {
         // JpaRepositoryFactoryBean actually implements RepositoryFactoryInformation
         // JpaRepositoryFactoryBean -> TransactionalRepositoryFactoryBeanSupport -> RepositoryFactoryBeanSupport -> RepositoryFactoryInformation
 
-        // in Spring boot 2.7.11 it works as expected. In Spring boot 3.2.3 it doesn't
+        // in Spring boot 2.7.18 it works as expected. In Spring boot 3.2.3 it doesn't. You can use the branch SB_2 to check out Spring boot 2 behaviour.
     }
 }
