@@ -1,10 +1,10 @@
 package com.example.demo;
 
-import jakarta.annotation.PostConstruct;
 import org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean;
 import org.springframework.data.repository.core.support.RepositoryFactoryInformation;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.PostConstruct;
 import java.util.List;
 
 @Service
